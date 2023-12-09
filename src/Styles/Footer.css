@@ -1,0 +1,26 @@
+/* Footer.css */
+
+.footer-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-container {
+    background-color: #1e1e1e;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footer-container p {
+    margin: 8px 0;
+  }
+  
+  .footer-container img {
+    max-width: 100px; /* Ajusta el ancho máximo según tus necesidades */
+    margin-top: 10px;
+    width: 30px;
+  }
+  

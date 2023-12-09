@@ -1,0 +1,41 @@
+/* App.css */
+
+body,
+html {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding: 0;
+  height: 100%;
+}
+
+.app-container {
+  position: relative;
+  min-height: 100vh; /* Asegura que el contenedor tenga al menos la altura de la pantalla */
+  overflow: hidden; /* Evita que el fondo se desplace con el contenido */
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
+  background-image: url("../Images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.85;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+      width: 50px;
+    }
+  }
+
+
+ 
+
+  
