@@ -7,6 +7,7 @@ import qgis from "../Images/qgisdownload.jpeg"
 import satelitalimage from "../Images/imagesatelital.jpg"
 import statics from "../Images/staticsqgis.jpg"
 import classify from "../Images/classify.png"
+import YouTubeVideo from '../Components/Video.js';
 
 
 const HomePage=()=>{
@@ -56,6 +57,9 @@ const HomePage=()=>{
                     </div>
                 </Carousel>
                 
+                </div>
+                <div>
+                    <YouTubeVideo/>
                 </div>
                 
         

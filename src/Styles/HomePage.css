@@ -34,7 +34,8 @@
     max-width: 400px; /* O ajusta según tus necesidades */
     padding-right: 20px; /* Espacio entre el texto y la escena */
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
+    
     margin-left: 90px;
     color: rgb(251, 251, 251);
     font-weight: 500;
