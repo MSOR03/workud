@@ -2,8 +2,8 @@
     color: black;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     background-color: white;
     padding: 20px;
 }
@@ -22,5 +22,32 @@
     text-align: justify;
     margin-left: 10px;
 }
+.scene{
+    margin-left: 200px;
+    margin-top: -300px;
+
+}
+  
+
+.text-container {
+    flex: 1;
+    max-width: 400px; /* O ajusta según tus necesidades */
+    padding-right: 20px; /* Espacio entre el texto y la escena */
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 90px;
+    color: rgb(251, 251, 251);
+    font-weight: 500;
+    background-color: black;
+    opacity: 0.8;
+    
+  }
+
+  .text-container p{
+   text-align: justify;
+   padding-left: 15px;
+   
+    
+  }
   
   

@@ -1,15 +1,41 @@
 import '../Styles/HomePage.css'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import logo from "../Images/background.jpg"
+import {ThreeScene} from '../Components/ThreeScene.js';
+//Images to slide
 import qgis from "../Images/qgisdownload.jpeg"
 import satelitalimage from "../Images/imagesatelital.jpg"
 import statics from "../Images/staticsqgis.jpg"
 import classify from "../Images/classify.png"
+
+
 const HomePage=()=>{
     return (
-         
+     
+        
+    <div>
+        
+        <div className="text-container">
+        <p>La percepción remota, a menudo llamada teledetección, representa una ventana 
+          virtual a nuestro mundo y más allá, sin la necesidad de estar físicamente 
+          presente en el lugar de interés. Este campo científico utiliza una variedad
+          de sensores y plataformas, desde satélites hasta aviones no tripulados, para
+          recopilar datos valiosos sobre la superficie terrestre, la atmósfera y los
+          océanos.</p>
+          <p>
+          Uno de los pilares fundamentales de la percepción remota es la capacidad de 
+          adquirir información sin contacto directo. Esto se logra mediante la detección 
+          y registro de la radiación electromagnética reflejada o emitida por los objetos
+           y áreas de interés. Los sensores especializados capturan esta radiación en 
+           diversas bandas del espectro electromagnético, desde la luz visible hasta las
+            microondas.
+          </p>
+      </div>
+        <div className='scene'>
+            <ThreeScene/>
+        </div>
             <div className="additional-images">
+                
                 <h2 className='title-slide'>Temas a tratar</h2>
                 <Carousel autoPlay interval={4000} infiniteLoop ={true}>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '300px', overflow: 'hidden' }}>
@@ -30,6 +56,10 @@ const HomePage=()=>{
                     </div>
                 </Carousel>
                 
+                </div>
+                
+        
+        
             </div>
         
     
