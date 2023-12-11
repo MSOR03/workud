@@ -58,7 +58,7 @@ const HomePage=()=>{
                 </Carousel>
                 
                 </div>
-                <div>
+                <div className='video-youtube'>
                     <YouTubeVideo/>
                 </div>
                 
