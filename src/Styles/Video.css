@@ -2,15 +2,26 @@ h2{
     color: white;
     margin-left: 50px;
     text-align: center;
-    margin-top: -10px;
+    margin-top: 0px;
 }
 
 /*Agregar medias query*/
+@media screen and (max-width: 1370px) {
+    .play-video {
+        align-items: center;
+        margin-left: 90px;
+        margin-bottom: 20px;
+    
+    }
+}
+
+
 @media screen and (max-width: 1280px) {
     .play-video {
         align-items: center;
         margin-left: 30px;
         margin-bottom: 20px;
+        
     }
 }
 
@@ -26,3 +37,6 @@ h2{
     }
 
 }
+
+
+

@@ -75,7 +75,7 @@
   margin-right: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 150px;
+  width: 140px;
 }
 
 .search-container button {
@@ -104,6 +104,21 @@
   }
 }
 /* Consulta de medios para pantallas más pequeñas */
+@media screen and (max-width: 1000px) {
+  .nav-list li {
+      margin-right: 20px; /* Reducción adicional del espacio entre elementos en pantallas más pequeñas */
+  }
+
+  .logo-container {
+      margin-right: 10px;
+  }
+
+  .search-container {
+      margin-left: 10px;
+  }
+}
+
+/* Navbar.css */
 @media screen and (max-width: 900px) {
   .nav-list li {
       margin-right: 20px; /* Reducción adicional del espacio entre elementos en pantallas más pequeñas */

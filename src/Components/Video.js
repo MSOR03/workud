@@ -7,7 +7,7 @@ const YouTubeVideo = () => {
       <h2>Videos Introducción</h2>
       <iframe className='play-video'
         width="320"
-        height="180"
+        height="240"
         src="https://www.youtube.com/embed/cKarWm9NHlU"
         title="Reproductor de YouTube"
         frameBorder="0"
@@ -15,7 +15,7 @@ const YouTubeVideo = () => {
       ></iframe>
       <iframe className='play-video'
         width="320"
-        height="180"
+        height="240"
         src="https://www.youtube.com/embed/wlk3dA-cNf4"
         title="Reproductor de YouTube"
         frameBorder="0"
@@ -24,7 +24,7 @@ const YouTubeVideo = () => {
 
       <iframe className='play-video'
         width="320"
-        height="180"
+        height="240"
         src="https://www.youtube.com/embed/F69Q64zfxLU"
         title="Reproductor de YouTube"
         frameBorder="0"

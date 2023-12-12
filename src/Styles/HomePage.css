@@ -1,62 +1,119 @@
-.additional-images{
-    color: white;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.additional-images {
+    text-align: center;
     background-color: black;
-    opacity: 0.75;
-    padding: 20px;
-}
+    opacity: 0.8;
+    color: white;
+    margin-bottom: -20px;
+  }
+  
+  /* Estilo para las imágenes del carrusel */
+  .additional-images img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
 
+@media (max-width: 768px) {
+    .additional-images img {
+      max-height: 200px; /* Establece una altura máxima en dispositivos más pequeños */
+    }
+  }
 .title-slide {
-    text-align: center; /* Centra el texto horizontalmente */
-    font-family: 'Arial', sans-serif; /* Establece la fuente del texto */
-    font-size: 25px; /* Tamaño de la fuente */
-    color: #ffffff; /* Color del texto */
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Sombra del texto */
-    border-bottom: 2px solid #333; /* Añade una línea de 2px de ancho y color #333 debajo del texto */
-    padding-bottom: 10px; /* Espaciado opcional para separar la línea del texto */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    font-family: 'Arial', sans-serif;
+    /* Establece la fuente del texto */
+    font-size: 25px;
+    /* Tamaño de la fuente */
+    color: #ffffff;
+    /* Color del texto */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    /* Sombra del texto */
+    border-bottom: 2px solid #333;
+    /* Añade una línea de 2px de ancho y color #333 debajo del texto */
+    padding-bottom: 10px;
+    /* Espaciado opcional para separar la línea del texto */
 }
 
-.subtitle{
+.subtitle {
     text-align: justify;
     margin-left: 10px;
 }
-.scene{
-    
+
+
+
+@media screen and (max-width: 1370px) {
+    .scene {
+        background-color: black;
+        opacity: 0.8;
+        z-index: 1;
+        margin-top: 5.5%;
+
+
+    }
+
+    .text-container {
+        position: relative;
+        /* Asegura que .text-container tenga un posicionamiento relativo */
+        flex: 1;
+        margin-top: 100px;
+        max-width: 400px;
+        /* O ajusta según tus necesidades */
+        padding-right: 20px;
+        /* Espacio entre el texto y la escena */
+        padding-top: 50px;
+        padding-bottom: 0px;
+        margin-left: 5%;
+        color: rgb(255, 255, 255);
+        font-weight: 300;
+        z-index: 2;
+
+        /* Asigna un z-index mayor que el de .scene */
+    }
+
+    .text-container p {
+        text-align: justify;
+        padding-left: 15px;
+    }
+
+}
+
+/*Agregar querys para mejorar el diseño responsive*/
+@media screen and (max-width: 900px) {
+
+    .scene {
+
+        background-color: black;
+        opacity: 0.8;
+        z-index: 1;
+        margin-top: 90px;
+
+    }
+
+    .text-container {
+        position: relative;
+        /* Asegura que .text-container tenga un posicionamiento relativo */
+        flex: 1;
+        max-width: 400px;
+        /* O ajusta según tus necesidades */
+        padding-right: 20px;
+        /* Espacio entre el texto y la escena */
+        padding-top: 20px;
+        padding-bottom: 0px;
+        margin-left: 5%px;
+        color: rgb(251, 251, 251);
+        font-weight: 300;
+        z-index: 2;
+        /* Asigna un z-index mayor que el de .scene */
+    }
+
+    .text-container p {
+        text-align: justify;
+        padding-left: 15px;
+    }
+
+}
+
+.video-youtube {
     background-color: black;
     opacity: 0.8;
-    z-index: 1;
-    margin-top: 50px;
-
 }
-  
-/*Agregar querys para mejorar el diseño responsive*/
-
-
-.text-container {
-    position: relative; /* Asegura que .text-container tenga un posicionamiento relativo */
-    flex: 1;
-    max-width: 400px; /* O ajusta según tus necesidades */
-    padding-right: 20px; /* Espacio entre el texto y la escena */
-    padding-top: 20px;
-    padding-bottom: 0px;
-    margin-left: 90px;
-    color: rgb(251, 251, 251);
-    font-weight: 400;
-    z-index: 2; /* Asigna un z-index mayor que el de .scene */
-}
-
-.text-container p {
-    text-align: justify;
-    padding-left: 15px;
-}
-
-
-  .video-youtube{
-    background-color: black;
-    opacity: 0.9;
-  }
-  
-  

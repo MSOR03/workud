@@ -1,20 +1,59 @@
 /* ThreeScene.module.css */
 
+.container {
+  display: flex;
+  justify-content: right;
+  height: 100vh;
+  margin-top: -86vh;
+  margin-left: 200vh;
+}
+
 .sceneContainer {
-  position: relative;
-  width: 70vw;
+  width: 100vw;
   height: 80vh;
-  overflow: hidden;
-  margin-top: -42vw;
-  margin-bottom:0vw;
-  margin-left: 20vw;
-  padding-bottom: 5vw;
+}
+
+@media screen and (max-width: 1367px) {
+  .sceneContainer {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .container {
+    display: flex;
+    justify-content: right;
+    height: 100vh;
+    margin-top: -86vh;
+    margin-left: 200vh;
+   
+  }
+  
+  .sceneContainer {
+    width: 100vw;
+    height: 80vh;
+  }
   
 }
-/* SceneOne.module.css */
+@media screen and (max-width: 1150px) {
+  .container {
+    display: flex;
+    justify-content: right;
+    height: 100vh;
+    margin-top: -86vh;
+    margin-left: 200vh;
+   
+  }
+  
+  .sceneContainer {
+    width: 100vw;
+    height: 80vh;
+  }
+  
+}
 
 
 
 
 
-/* Otros estilos... */
+
