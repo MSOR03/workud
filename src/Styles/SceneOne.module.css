@@ -1,5 +1,19 @@
 /* ThreeScene.module.css */
-
+@media screen and (max-width: 2000px) {
+  .container {
+    display: flex;
+    justify-content: right;
+    height: 100vh;
+    margin-top: -11.5vh;
+    margin-left: -1000px;
+   
+  }
+  
+  .sceneContainer {
+    width: 80vw;
+    height: 80vh;
+  }
+}
 
 /*Screm up to a 1370px*/
 @media screen and (max-width: 1370px) {
@@ -7,7 +21,7 @@
     display: flex;
     justify-content: right;
     height: 100vh;
-    margin-top: -90.5vh;
+    margin-top: -11.5vh;
     margin-left: -1000px;
    
   }
@@ -23,7 +37,7 @@
     display: flex;
     justify-content: right;
     height: 100vh;
-    margin-top: -93vh;
+    margin-top: -11.5vh;
     margin-left: -600px;
    
   }
@@ -39,7 +53,7 @@
     display: flex;
     justify-content: right;
     height: 100vh;
-    margin-top: -89vh;
+    margin-top: -8vh;
     margin-left: -600px;
    
   }
@@ -55,7 +69,7 @@
     display: flex;
     justify-content: right;
     height: 100vh;
-    margin-top: -103vh;
+    margin-top: -7vh;
     margin-left: -600px;
    
   }
@@ -72,7 +86,7 @@
     display: flex;
     justify-content: right;
     height: 100vh;
-    margin-top: -92vh;
+    margin-top: -11.5vh;
     margin-left: -600px;
    
   }
