@@ -1,47 +1,79 @@
 /* ThreeScene.module.css */
 
-.container {
-  display: flex;
-  justify-content: right;
-  height: 100vh;
-  margin-top: -86vh;
-  margin-left: 200vh;
-}
 
-.sceneContainer {
-  width: 100vw;
-  height: 80vh;
-}
-
-@media screen and (max-width: 1367px) {
-  .sceneContainer {
-    width: 80vw;
-  }
-}
-
-@media screen and (max-width: 1250px) {
+/*Screm up to a 1370px*/
+@media screen and (max-width: 1370px) {
   .container {
     display: flex;
     justify-content: right;
     height: 100vh;
-    margin-top: -86vh;
-    margin-left: 200vh;
+    margin-top: -90.5vh;
+    margin-left: -1000px;
    
   }
   
   .sceneContainer {
-    width: 100vw;
+    width: 80vw;
     height: 80vh;
   }
-  
 }
-@media screen and (max-width: 1150px) {
+
+@media screen and (max-width: 1360px) {
   .container {
     display: flex;
     justify-content: right;
     height: 100vh;
-    margin-top: -86vh;
-    margin-left: 200vh;
+    margin-top: -93vh;
+    margin-left: -600px;
+   
+  }
+  
+  .sceneContainer {
+    width: 80vw;
+    height: 80vh;
+  }
+  
+}
+@media screen and (max-width: 1340px) {
+  .container {
+    display: flex;
+    justify-content: right;
+    height: 100vh;
+    margin-top: -89vh;
+    margin-left: -600px;
+   
+  }
+  
+  .sceneContainer {
+    width: 70vw;
+    height: 80vh;
+  }
+  
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    display: flex;
+    justify-content: right;
+    height: 100vh;
+    margin-top: -103vh;
+    margin-left: -600px;
+   
+  }
+  
+  .sceneContainer {
+    width: 75vw;
+    height: 80vh;
+  }
+  
+}
+
+@media screen and (max-width: 680px) {
+  .container {
+    display: flex;
+    justify-content: right;
+    height: 100vh;
+    margin-top: -92vh;
+    margin-left: -600px;
    
   }
   

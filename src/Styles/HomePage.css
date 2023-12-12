@@ -77,8 +77,44 @@
 
 }
 
+
+@media screen and (max-width: 1000px) {
+    .scene {
+        background-color: black;
+        opacity: 0.8;
+        z-index: 1;
+        margin-top: 5.5%;
+
+
+    }
+
+    .text-container {
+        position: relative;
+        /* Asegura que .text-container tenga un posicionamiento relativo */
+        flex: 1;
+        margin-top: 100px;
+        max-width: 300px;
+        /* O ajusta según tus necesidades */
+        padding-right: 20px;
+        /* Espacio entre el texto y la escena */
+        padding-top: 50px;
+        padding-bottom: 0px;
+        margin-left: 1%;
+        color: rgb(255, 255, 255);
+        font-weight: 300;
+        z-index: 2;
+
+        /* Asigna un z-index mayor que el de .scene */
+    }
+
+    .text-container p {
+        text-align: justify;
+        padding-left: 15px;
+    }
+
+}
 /*Agregar querys para mejorar el diseño responsive*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 680px) {
 
     .scene {
 
@@ -90,6 +126,8 @@
     }
 
     .text-container {
+        background-color: black;
+        opacity: 0.7;
         position: relative;
         /* Asegura que .text-container tenga un posicionamiento relativo */
         flex: 1;
@@ -101,7 +139,7 @@
         padding-bottom: 0px;
         margin-left: 5%px;
         color: rgb(251, 251, 251);
-        font-weight: 300;
+        font-weight: 400;
         z-index: 2;
         /* Asigna un z-index mayor que el de .scene */
     }
