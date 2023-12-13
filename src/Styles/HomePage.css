@@ -89,7 +89,7 @@
         position: absolute;
         /* Asegura que .text-container tenga un posicionamiento relativo */
         flex: 1;
-        margin-top: 100px;
+        margin-top: 60px;
         max-width: 400px;
         /* O ajusta según tus necesidades */
         padding-right: 20px;
@@ -126,7 +126,7 @@
         position: absolute;
         /* Asegura que .text-container tenga un posicionamiento relativo */
         flex: 1;
-        margin-top: 50px;
+        margin-top: 60px;
         max-width: 300px;
         /* O ajusta según tus necesidades */
         padding-right: 20px;
