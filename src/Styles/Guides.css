@@ -1,0 +1,49 @@
+
+.title-guides {
+    background-color: #ffffff; /* Color de fondo oscuro */
+    padding: 20px; /* Espaciado interno */
+    text-align: center;
+  }
+  
+  .title-guides h1 {
+    color: #3d3737; /* Color del texto blanco */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+  }
+  
+.container{
+    background-color: black;
+    opacity: 0.8;
+}
+
+
+.container-cards {
+    padding-top: 15px;
+    background-color: black;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
+.container h2{
+    z-index: 3;
+    color: rgb(48, 43, 43);
+    background-color: white;
+    margin-left: -120px;
+    margin-right: -120px;
+    padding-bottom: 15px;
+}
+
+
+
+.container-calendar {
+    width: 100%;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    
+}
+
+

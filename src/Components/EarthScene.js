@@ -3,7 +3,7 @@ import * as THREE from 'three';
 import earthTexture from '../Images/texture.jpg';
 import styles from "../Styles/SceneOne.module.css";
 
-const ThreeScene = () => {
+const EarthScene = () => {
   const sceneRef = useRef(null);
 
   useEffect(() => {
@@ -58,14 +58,20 @@ const ThreeScene = () => {
     };
 
     const handleMouseMove = (event) => {
-      mouseX = (event.clientX / window.innerWidth) * 2 - 1;
-      mouseY = - (event.clientY / window.innerHeight) * 2 + 1;
+      // Verificar si el cursor está dentro del área de la escena
+      if (isCursorInsideScene(event)) {
+        mouseX = (event.clientX / window.innerWidth) * 2 - 1;
+        mouseY = - (event.clientY / window.innerHeight) * 2 + 1;
+      }
     };
 
     const handleWheel = (event) => {
-      // Ajustar la posición de la cámara basada en la rueda del mouse
-      zoom += event.deltaY * 0.005;
-      camera.position.z = zoom;
+      // Verificar si el cursor está dentro del área de la escena
+      if (isCursorInsideScene(event)) {
+        // Ajustar la posición de la cámara basada en la rueda del mouse
+        zoom += event.deltaY * 0.005;
+        camera.position.z = zoom;
+      }
     };
 
     const handleMouseDown = () => {
@@ -77,7 +83,8 @@ const ThreeScene = () => {
     };
 
     const handleMouseMoveDrag = (event) => {
-      if (isMouseDown) {
+      // Verificar si el cursor está dentro del área de la escena
+      if (isCursorInsideScene(event) && isMouseDown) {
         const deltaX = event.movementX || event.mozMovementX || event.webkitMovementX || 0;
         const deltaY = event.movementY || event.mozMovementY || event.webkitMovementY || 0;
 
@@ -89,6 +96,14 @@ const ThreeScene = () => {
         // Limitar la rotación en el eje X para evitar que la escena se invierta
         earth.rotation.x = Math.max(-Math.PI / 2, Math.min(Math.PI / 2, earth.rotation.x));
       }
+    };
+
+    const isCursorInsideScene = (event) => {
+      const rect = container.getBoundingClientRect();
+      const x = event.clientX - rect.left;
+      const y = event.clientY - rect.top;
+
+      return x >= 0 && x <= rect.width && y >= 0 && y <= rect.height;
     };
 
     window.addEventListener('resize', handleResize);
@@ -119,4 +134,4 @@ const ThreeScene = () => {
   );
 };
 
-export { ThreeScene };
+export { EarthScene };

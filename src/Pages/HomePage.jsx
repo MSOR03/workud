@@ -1,9 +1,9 @@
 import '../Styles/HomePage.css'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import { ThreeScene } from '../Components/ThreeScene.js';
+import { EarthScene } from '../Components/EarthScene.js';
 import { Canvas } from 'react-three-fiber';
-import { OrbitControls } from '@react-three/drei'; 
+import { OrbitControls } from '@react-three/drei';
 //Images to slide
 import qgis from "../Images/qgisdownload.jpeg"
 import satelitalimage from "../Images/imagesatelital.jpg"
@@ -41,7 +41,7 @@ const HomePage = () => {
                 </p>
             </div>
             <div className='scene'>
-                <ThreeScene />
+                <EarthScene />
             </div>
             <div className="additional-images">
 
@@ -69,7 +69,7 @@ const HomePage = () => {
             <div className='video-youtube'>
                 <YouTubeVideo />
             </div>
-
+            { 
             <div className='house-model'>
                 <Canvas camera={{ zoom: 1, position: [20, 20, 15] }}>
                     <ambientLight intensity={0.5} />
@@ -80,10 +80,10 @@ const HomePage = () => {
                     <OrbitControls/>
                    
                 </Canvas>
-            </div>
+    </div>}
 
 
-          
+
         </div>
 
 

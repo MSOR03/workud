@@ -10,6 +10,11 @@
   .additional-images img {
     max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
+    margin-left: 30px;
+  }
+
+  .subtitle{
+    margin-right: 30px;
   }
 
 @media (max-width: 768px) {
@@ -97,6 +102,7 @@
         padding-top: 50px;
         padding-bottom: 0px;
         margin-left: 5%;
+
         color: rgb(255, 255, 255);
         font-weight: 300;
         z-index: 2;
