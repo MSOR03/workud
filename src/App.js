@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from "./Pages/Navigation/Navbar";
-import Footer from "./Pages/Navigation/Footer";
-import HomePage from "./Pages/HomePage";
-import GuidesPage from "./Pages/GuidesPage";
-import InformationPage from "./Pages/InformationPage";
-import HelpPage from "./Pages/HelpPage";
-import './Styles/App.css'
+import Navbar from "./Frontend/Pages/Navigation/Navbar";
+import Footer from "./Frontend/Pages/Navigation/Footer";
+import HomePage from "./Frontend/Pages/HomePage";
+import GuidesPage from "./Frontend/Pages/GuidesPage";
+import InformationPage from "./Frontend/Pages/InformationPage";
+import HelpPage from "./Frontend/Pages/HelpPage";
+import './Frontend/Styles/App.css'
 
 
 function App() {

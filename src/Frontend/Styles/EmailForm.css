@@ -1,0 +1,21 @@
+/* EmailForm.css */
+
+body {
+    
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+     /* Puedes cambiar este color según tus preferencias */
+  }
+  
+  .container {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Puedes ajustar el ancho según tus preferencias */
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
