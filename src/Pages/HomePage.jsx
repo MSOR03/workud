@@ -12,7 +12,7 @@ import classify from "../Images/classify.png"
 import YouTubeVideo from '../Components/Video.js';
 import { House } from '../Components/House.jsx';
 
-import { AmbientLight } from 'three';
+import { AmbientLight, DirectionalLight } from 'three';
 import { Suspense } from 'react';
 import { PointLight } from 'three';
 
@@ -69,18 +69,18 @@ const HomePage = () => {
             <div className='video-youtube'>
                 <YouTubeVideo />
             </div>
-            { 
-            <div className='house-model'>
-                <Canvas camera={{ zoom: 1, position: [20, 20, 15] }}>
-                    <ambientLight intensity={0.5} />
-                    
-                    <Suspense fallback={null}>
-                        <House />
-                    </Suspense>
-                    <OrbitControls/>
-                   
-                </Canvas>
-    </div>}
+            {/*
+                <div className='house-model'>
+                    <Canvas camera={{ zoom: 1, position: [20, 20, 15] }}>
+               
+                    <ambientLight intensity={0.5}/>
+                        <Suspense fallback={null}>
+                            <House />
+                        </Suspense>
+                        <OrbitControls />
+
+                    </Canvas>
+    </div>*/}
 
 
 

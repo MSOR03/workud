@@ -1,8 +1,18 @@
-h2{
-    color: white;
-    margin-left: 50px;
+.title-video{
     text-align: center;
-    margin-top: 0px;
+    /* Centra el texto horizontalmente */
+    font-family: 'Arial', sans-serif;
+    /* Establece la fuente del texto */
+    font-size: 25px;
+    /* Tamaño de la fuente */
+    color: #ffffff;
+    /* Color del texto */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    /* Sombra del texto */
+    border-bottom: 2px solid #333;
+    /* Añade una línea de 2px de ancho y color #333 debajo del texto */
+    padding-bottom: 10px;
+    /* Espaciado opcional para separar la línea del texto */
 }
 
 /*Agregar medias query*/
@@ -13,6 +23,12 @@ h2{
         margin-bottom: 20px;
     
     }
+    h2{
+        color: rgb(255, 255, 255);
+        margin-left: 50px;
+        text-align: center;
+        margin-top: 0px;
+    }
 }
 
 
@@ -22,6 +38,12 @@ h2{
         margin-left: 30px;
         margin-bottom: 20px;
         
+    }
+    h2{
+        color: rgb(255, 255, 255);
+        margin-left: 50px;
+        text-align: center;
+        margin-top: 0px;
     }
 }
 
@@ -34,6 +56,12 @@ h2{
         max-width: 100%; /* Asegúrate de que el ancho máximo no exceda el ancho de la pantalla */
         padding: 0 20px; /* Añade un poco de espacio en los bordes, si es necesario */
         box-sizing: border-box; /* Incluye el padding en el ancho total del contenedor */
+    }
+    h2{
+        color: rgb(255, 255, 255);
+        margin-left: 50px;
+        text-align: center;
+        margin-top: 0px;
     }
 
 }

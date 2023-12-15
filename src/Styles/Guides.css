@@ -1,15 +1,25 @@
 
 .title-guides {
     background-color: #ffffff; /* Color de fondo oscuro */
-    padding: 20px; /* Espaciado interno */
+    padding: 10px; /* Espaciado interno */
     text-align: center;
   }
   
   .title-guides h1 {
-    color: #3d3737; /* Color del texto blanco */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente del texto */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
-    margin: 0; /* Elimina el margen predeterminado del h1 */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    font-family: 'Arial', sans-serif;
+    /* Establece la fuente del texto */
+    font-size: 25px;
+    /* Tamaño de la fuente */
+    color: #000000;
+    /* Color del texto */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    /* Sombra del texto */
+    border-bottom: 2px solid #333;
+    /* Añade una línea de 2px de ancho y color #333 debajo del texto */
+    padding-bottom: 10px;
+    /* Espaciado opcional para separar la línea del texto */
   }
   
 .container{
@@ -19,6 +29,7 @@
 
 
 .container-cards {
+    
     padding-top: 15px;
     background-color: black;
     opacity: 0.8;
@@ -27,12 +38,20 @@
 
 
 .container h2{
-    z-index: 3;
-    color: rgb(48, 43, 43);
-    background-color: white;
-    margin-left: -120px;
-    margin-right: -120px;
-    padding-bottom: 15px;
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    font-family: 'Arial', sans-serif;
+    /* Establece la fuente del texto */
+    font-size: 25px;
+    /* Tamaño de la fuente */
+    color: #ffffff;
+    /* Color del texto */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    /* Sombra del texto */
+    border-bottom: 2px solid #333;
+    /* Añade una línea de 2px de ancho y color #333 debajo del texto */
+    padding-bottom: 10px;
+    /* Espaciado opcional para separar la línea del texto */
 }
 
 

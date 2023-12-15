@@ -1,12 +1,14 @@
 .card:hover {
-    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
-    transition: all 0.7s linear;
+    box-shadow: 5px 10px 20px 1px rgba(20, 59, 235, 0.273) !important;
+    transition: all 0.1s linear;
     z-index: 2;
+    
   }
   
   .card-body {
     padding: 2rem 0 !important;
     z-index: 2;
+    background-color: black;
     
   }
   
@@ -14,6 +16,7 @@
     padding: 0.3rem 1rem;
     font-size: 1rem;
     z-index: 2;
+    
   }
   
   .overflow {

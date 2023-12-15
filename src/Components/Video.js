@@ -4,7 +4,7 @@ import '../Styles/Video.css'
 const YouTubeVideo = () => {
   return (
     <div>
-      <h2>Videos Introducción</h2>
+      <h2 className='title-video'>Videos Introducción</h2>
       <iframe className='play-video'
         width="320"
         height="240"

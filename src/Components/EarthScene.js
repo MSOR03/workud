@@ -12,6 +12,9 @@ const EarthScene = () => {
     let zoom = 5;
     let isMouseDown = false;
 
+    // Zoom máximo permitido
+    const maxZoom = 10;
+
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 
@@ -70,6 +73,10 @@ const EarthScene = () => {
       if (isCursorInsideScene(event)) {
         // Ajustar la posición de la cámara basada en la rueda del mouse
         zoom += event.deltaY * 0.005;
+
+        // Limitar el zoom máximo
+        zoom = Math.min(zoom, maxZoom);
+
         camera.position.z = zoom;
       }
     };
